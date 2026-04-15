@@ -1,20 +1,101 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚀 Landing Page Profissional
 
-# Run and deploy your AI Studio app
+Landing page moderna, responsiva e otimizada para conversão, desenvolvida com foco em transformar visitantes em clientes.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/feade6f0-b691-4072-95b9-f7168ee09a09
+## 📸 Preview
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🧠 Sobre o projeto
 
+Este projeto foi desenvolvido com foco em performance, responsividade e boas práticas de SEO.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+A proposta é oferecer uma página simples, direta e estratégica para aumentar a conversão de visitantes em leads ou clientes.
+
+---
+
+## 🎯 Objetivo
+
+* Gerar mais clientes
+* Melhorar a presença digital
+* Aumentar a conversão sem aumentar investimento em anúncios
+
+---
+
+## ⚙️ Tecnologias utilizadas
+
+* React
+* TypeScript
+* Vite
+* HTML5
+* CSS3
+
+---
+
+## 📱 Responsividade
+
+A landing page foi desenvolvida para funcionar perfeitamente em:
+
+* 📱 Celulares
+* 💻 Desktops
+* 📲 Tablets
+
+---
+
+## 🔍 SEO e Performance
+
+* Estrutura otimizada para mecanismos de busca
+* Meta tags configuradas
+* Carregamento rápido
+* Boas práticas de acessibilidade
+
+---
+
+## 💬 Contato
+
+Entre em contato para projetos:
+
+📲 WhatsApp:
+https://wa.me/5511941900585
+
+---
+
+## 🚀 Como rodar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+# Acesse a pasta
+cd seu-repositorio
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+```
+
+---
+
+## 📌 Deploy
+
+Projeto pronto para deploy em plataformas como:
+
+* Netlify
+* Vercel
+
+---
+
+## 🧑‍💻 Autor
+
+Denis Sacramento — focado em criar soluções que geram resultados reais.
+
+---
+
+## ⭐ Diferencial
+
+Mais clientes, menos gasto com anúncios.
+
