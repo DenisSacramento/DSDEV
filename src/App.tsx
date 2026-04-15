@@ -19,7 +19,8 @@ import {
   Star,
   Quote
 } from "lucide-react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import profileImage from "./assets/dsdev1.png";
 
 const Navbar = () => {
   return (
@@ -271,21 +272,25 @@ const Services = () => {
 };
 
 const About = () => {
+  const [avatarSrc, setAvatarSrc] = useState(profileImage);
+
   return (
     <section id="sobre" className="py-24 px-12 max-w-4xl mx-auto text-center">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
         className="mb-12"
       >
         <div className="relative w-32 h-32 mx-auto mb-10">
           <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-white/20 to-transparent animate-pulse" />
           <img 
-            src="dsdev.png" 
+            src={avatarSrc}
+            onError={() => setAvatarSrc("/dsdev1.png")}
             alt="Denis Sacramento" 
             className="w-full h-full object-cover rounded-full border-2 border-white/10 relative z-10"
-            referrerPolicy="no-referrer"
+            loading="eager"
+            decoding="async"
           />
         </div>
         <Quote className="w-10 h-10 mx-auto opacity-20 mb-8" />
